@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/source" name="source">
+                <projects>
+                  <project path="$PROJECT_DIR$/source" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/logic" />
+            <option value="$PROJECT_DIR$/common/systemDesign" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/database" />
+            <option value="$PROJECT_DIR$/core/datastore" />
+            <option value="$PROJECT_DIR$/core/repository" />
+            <option value="$PROJECT_DIR$/core/security" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/init" />
+            <option value="$PROJECT_DIR$/root" />
+            <option value="$PROJECT_DIR$/services" />
+            <option value="$PROJECT_DIR$/services/notifications" />
+            <option value="$PROJECT_DIR$/services/shortcuts" />
+            <option value="$PROJECT_DIR$/source" />
+            <option value="$PROJECT_DIR$/ui" />
+            <option value="$PROJECT_DIR$/ui/features" />
+            <option value="$PROJECT_DIR$/ui/features/audios" />
+            <option value="$PROJECT_DIR$/ui/features/camera" />
+            <option value="$PROJECT_DIR$/ui/features/links" />
+            <option value="$PROJECT_DIR$/ui/features/media" />
+            <option value="$PROJECT_DIR$/ui/features/note" />
+            <option value="$PROJECT_DIR$/ui/features/quickNote" />
+            <option value="$PROJECT_DIR$/ui/features/recorder" />
+            <option value="$PROJECT_DIR$/ui/features/reminder" />
+            <option value="$PROJECT_DIR$/ui/features/tags" />
+            <option value="$PROJECT_DIR$/ui/features/tasks" />
+            <option value="$PROJECT_DIR$/ui/features/widget" />
+            <option value="$PROJECT_DIR$/ui/screens" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+    <option name="parallelModelFetch" value="true" />
+  </component>
+</project>
